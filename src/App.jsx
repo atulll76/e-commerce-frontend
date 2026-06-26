@@ -10,7 +10,7 @@ function App() {
 }
 
 const appStyle = {
-  backgroundColor: '#09090a',
+  backgroundColor: '#f5f6f8',
   minHeight: '100vh',
   padding: '2rem 1rem',
   display: 'flex',

@@ -190,20 +190,21 @@ export function UserForm({ user, onSubmit, onCancel }) {
 
 // Inline styles
 const formContainer = {
-  backgroundColor: '#202024',
-  border: '1px solid #29292e',
+  backgroundColor: '#ffffff',
+  border: '1px solid #dee2e6',
   borderRadius: '8px',
   padding: '1.5rem',
   marginBottom: '2rem',
   fontFamily: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+  boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03)',
 };
 
 const formTitle = {
   marginTop: 0,
   marginBottom: '1.25rem',
-  color: '#ffffff',
+  color: '#212529',
   fontSize: '1.2rem',
-  borderBottom: '1px solid #29292e',
+  borderBottom: '1px solid #dee2e6',
   paddingBottom: '0.5rem',
 };
 
@@ -224,14 +225,14 @@ const fieldContainer = {
 const labelStyle = {
   fontSize: '0.8rem',
   fontWeight: 'bold',
-  color: '#8d8d99',
+  color: '#495057',
   marginBottom: '0.4rem',
 };
 
 const inputStyle = {
-  backgroundColor: '#121214',
-  border: '1px solid #29292e',
-  color: '#e1e1e6',
+  backgroundColor: '#ffffff',
+  border: '1px solid #ced4da',
+  color: '#212529',
   padding: '0.5rem 0.75rem',
   borderRadius: '4px',
   outline: 'none',
@@ -254,14 +255,14 @@ const actionsContainer = {
   justifyContent: 'flex-end',
   gap: '0.75rem',
   marginTop: '1.5rem',
-  borderTop: '1px solid #29292e',
+  borderTop: '1px solid #dee2e6',
   paddingTop: '1rem',
 };
 
 const cancelBtn = {
   backgroundColor: 'transparent',
-  border: '1px solid #29292e',
-  color: '#c4c4cc',
+  border: '1px solid #ced4da',
+  color: '#495057',
   padding: '0.5rem 1.25rem',
   borderRadius: '4px',
   cursor: 'pointer',

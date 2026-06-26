@@ -200,33 +200,33 @@ const dashboardContainer = {
   margin: '0 auto',
   padding: '1.5rem',
   fontFamily: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
-  color: '#e1e1e6',
+  color: '#212529',
 };
 
 const dashboardHeader = {
   marginBottom: '2rem',
-  borderBottom: '1px solid #29292e',
+  borderBottom: '1px solid #dee2e6',
   paddingBottom: '1rem',
 };
 
 const dashboardTitle = {
   fontSize: '2.25rem',
   margin: 0,
-  background: 'linear-gradient(90deg, #8257e6 0%, #04d361 100%)',
+  background: 'linear-gradient(90deg, #8257e6 0%, #0ca678 100%)',
   WebkitBackgroundClip: 'text',
   WebkitTextFillColor: 'transparent',
 };
 
 const dashboardSubtitle = {
-  color: '#8d8d99',
+  color: '#495057',
   fontSize: '0.95rem',
   margin: '0.5rem 0 0 0',
 };
 
 const offlineAlert = {
-  backgroundColor: '#2b2212',
-  border: '1px solid #d3a104',
-  color: '#f5c865',
+  backgroundColor: '#fff9db',
+  border: '1px solid #f59f00',
+  color: '#f08c00',
   padding: '0.75rem 1.25rem',
   borderRadius: '6px',
   marginBottom: '1.5rem',
@@ -237,8 +237,8 @@ const offlineAlert = {
 };
 
 const offlineBadge = {
-  backgroundColor: '#d3a104',
-  color: '#121214',
+  backgroundColor: '#f59f00',
+  color: '#ffffff',
   fontWeight: 'bold',
   padding: '0.2rem 0.5rem',
   borderRadius: '4px',
@@ -247,9 +247,9 @@ const offlineBadge = {
 };
 
 const errorAlert = {
-  backgroundColor: '#2b1a1a',
-  border: '1px solid #c53030',
-  color: '#f56565',
+  backgroundColor: '#fff5f5',
+  border: '1px solid #ffc9c9',
+  color: '#fa5252',
   padding: '0.75rem 1.25rem',
   borderRadius: '6px',
   marginBottom: '1.5rem',
@@ -266,12 +266,12 @@ const actionBar = {
 const sectionTitle = {
   margin: 0,
   fontSize: '1.4rem',
-  color: '#ffffff',
+  color: '#212529',
 };
 
 const createUserBtn = {
-  backgroundColor: '#04d361',
-  color: '#121214',
+  backgroundColor: '#0ca678',
+  color: '#ffffff',
   border: 'none',
   padding: '0.6rem 1.25rem',
   borderRadius: '6px',
@@ -296,17 +296,18 @@ const mainContentArea = {
 const detailPanel = {
   flex: '1 1 30%',
   minWidth: '280px',
-  backgroundColor: '#202024',
-  border: '1px solid #29292e',
+  backgroundColor: '#ffffff',
+  border: '1px solid #dee2e6',
   borderRadius: '8px',
   padding: '1.25rem',
+  boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03)',
 };
 
 const detailHeader = {
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'center',
-  borderBottom: '1px solid #29292e',
+  borderBottom: '1px solid #dee2e6',
   paddingBottom: '0.75rem',
   marginBottom: '1rem',
 };
@@ -314,13 +315,13 @@ const detailHeader = {
 const detailTitle = {
   margin: 0,
   fontSize: '1.1rem',
-  color: '#ffffff',
+  color: '#212529',
 };
 
 const closeDetailBtn = {
   background: 'none',
   border: 'none',
-  color: '#8d8d99',
+  color: '#868e96',
   fontSize: '1.5rem',
   cursor: 'pointer',
 };
@@ -338,23 +339,23 @@ const detailItem = {
 
 const detailLabel = {
   fontSize: '0.75rem',
-  color: '#8d8d99',
+  color: '#868e96',
   textTransform: 'uppercase',
   marginBottom: '0.2rem',
 };
 
 const detailValue = {
   fontSize: '0.95rem',
-  color: '#e1e1e6',
+  color: '#212529',
 };
 
 const stateCard = {
-  backgroundColor: '#202024',
-  border: '1px solid #29292e',
+  backgroundColor: '#ffffff',
+  border: '1px solid #dee2e6',
   borderRadius: '8px',
   padding: '3rem',
   textAlign: 'center',
-  color: '#8d8d99',
+  color: '#868e96',
 };
 
 const retryBtn = {
@@ -369,10 +370,11 @@ const retryBtn = {
 };
 
 const tableWrapper = {
-  backgroundColor: '#202024',
-  border: '1px solid #29292e',
+  backgroundColor: '#ffffff',
+  border: '1px solid #dee2e6',
   borderRadius: '8px',
   overflow: 'hidden',
+  boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03)',
 };
 
 const tableStyle = {
@@ -383,32 +385,30 @@ const tableStyle = {
 };
 
 const tableHeaderRow = {
-  borderBottom: '2px solid #29292e',
-  backgroundColor: '#121214',
+  borderBottom: '2px solid #dee2e6',
+  backgroundColor: '#f8f9fa',
 };
 
 const thStyle = {
   padding: '1rem 1.25rem',
-  color: '#8d8d99',
+  color: '#495057',
   fontWeight: '600',
 };
 
 const tableRow = {
-  borderBottom: '1px solid #29292e',
+  borderBottom: '1px solid #dee2e6',
   cursor: 'pointer',
   transition: 'background-color 0.2s',
-  '&:hover': {
-    backgroundColor: '#29292e',
-  }
 };
 
 const tdStyle = {
   padding: '1rem 1.25rem',
+  color: '#212529',
 };
 
 const codeStyle = {
   color: '#8257e6',
-  backgroundColor: '#121214',
+  backgroundColor: '#f1f3f5',
   padding: '0.2rem 0.4rem',
   borderRadius: '4px',
   fontSize: '0.8rem',
@@ -420,9 +420,9 @@ const actionGroup = {
 };
 
 const editActionBtn = {
-  backgroundColor: '#29292e',
-  color: '#e1e1e6',
-  border: 'none',
+  backgroundColor: '#f1f3f5',
+  color: '#212529',
+  border: '1px solid #ced4da',
   padding: '0.35rem 0.75rem',
   borderRadius: '4px',
   cursor: 'pointer',
@@ -431,8 +431,8 @@ const editActionBtn = {
 
 const deleteActionBtn = {
   backgroundColor: 'transparent',
-  border: '1px solid #c53030',
-  color: '#f56565',
+  border: '1px solid #fa5252',
+  color: '#fa5252',
   padding: '0.35rem 0.75rem',
   borderRadius: '4px',
   cursor: 'pointer',
@@ -444,14 +444,14 @@ const paginationStyle = {
   justifyContent: 'space-between',
   alignItems: 'center',
   padding: '1rem 1.25rem',
-  borderTop: '1px solid #29292e',
-  backgroundColor: '#121214',
+  borderTop: '1px solid #dee2e6',
+  backgroundColor: '#f8f9fa',
 };
 
 const pageBtn = {
-  backgroundColor: '#29292e',
-  color: '#e1e1e6',
-  border: 'none',
+  backgroundColor: '#f1f3f5',
+  color: '#212529',
+  border: '1px solid #ced4da',
   padding: '0.4rem 1rem',
   borderRadius: '4px',
   cursor: 'pointer',
@@ -463,7 +463,7 @@ const pageBtn = {
 };
 
 const pageIndicator = {
-  color: '#8d8d99',
+  color: '#495057',
   fontSize: '0.85rem',
 };
 export default UserDashboard;

@@ -53,12 +53,13 @@ const hostConfigContainer = {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',
-  backgroundColor: '#202024',
-  border: '1px solid #29292e',
+  backgroundColor: '#ffffff',
+  border: '1px solid #dee2e6',
   borderRadius: '8px',
   padding: '0.75rem 1.25rem',
   marginBottom: '1.5rem',
   fontFamily: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+  boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03)',
 };
 
 const hostLabelGroup = {
@@ -69,14 +70,14 @@ const hostLabelGroup = {
 };
 
 const labelText = {
-  color: '#8d8d99',
+  color: '#495057',
   fontSize: '0.85rem',
   fontWeight: '600',
 };
 
 const hostValue = {
-  color: '#04d361',
-  backgroundColor: '#121214',
+  color: '#0ca678',
+  backgroundColor: '#f1f3f5',
   padding: '0.25rem 0.5rem',
   borderRadius: '4px',
   fontSize: '0.85rem',
@@ -89,9 +90,9 @@ const inputGroup = {
 };
 
 const hostInput = {
-  backgroundColor: '#121214',
-  border: '1px solid #29292e',
-  color: '#e1e1e6',
+  backgroundColor: '#ffffff',
+  border: '1px solid #ced4da',
+  color: '#212529',
   padding: '0.25rem 0.5rem',
   borderRadius: '4px',
   fontSize: '0.85rem',
@@ -112,8 +113,8 @@ const saveBtn = {
 
 const cancelBtn = {
   backgroundColor: 'transparent',
-  color: '#8d8d99',
-  border: '1px solid #29292e',
+  color: '#495057',
+  border: '1px solid #ced4da',
   padding: '0.25rem 0.75rem',
   borderRadius: '4px',
   cursor: 'pointer',
@@ -121,9 +122,9 @@ const cancelBtn = {
 };
 
 const editBtn = {
-  backgroundColor: '#29292e',
-  color: '#e1e1e6',
-  border: 'none',
+  backgroundColor: '#f1f3f5',
+  color: '#212529',
+  border: '1px solid #ced4da',
   padding: '0.25rem 0.75rem',
   borderRadius: '4px',
   cursor: 'pointer',
@@ -139,7 +140,7 @@ const displayGroup = {
 };
 
 const statusText = {
-  color: '#04d361',
+  color: '#0ca678',
   fontSize: '0.8rem',
   fontWeight: 'bold',
 };
